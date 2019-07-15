@@ -1,8 +1,8 @@
 body {
 	background: #ffffff;
-	color: #434c58;
+	color: #474747;
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	overflow-x: hidden;
@@ -33,7 +33,7 @@ html{
 }
 
 a {
-	color: #afdb57;
+	color: #aecd5c;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -41,7 +41,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-	color: #3a3f5c;
+	color: #474747;
 	outline: none;
 }
 
@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-	color: #434c58;
+	color: #474747;
 	font-size: 30px;
 	line-height: 46px;
 	margin-top: 0;
@@ -86,14 +86,23 @@ p {
 	margin: 0 0 15px;
 }
 
-hr {
+/*hr {
 	border: none;
 	width: 60px;	
 	margin-top: 0;
 	margin-bottom: 60px;
 	background: url(../images/divider.png) no-repeat 0 0;
 	height: 35px;
+}*/
+
+hr {
+    
+	width: 60px;	
+	    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
 }
+
 
 * {
 	-webkit-box-sizing: border-box;
@@ -117,11 +126,11 @@ hr {
 
 /* Trabalhos */
 .work-icon {
-	background-color: #afdb57;
+	background-color: #aecd5c;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-ms-border-radius: 50%;
-	color: #3a3f5c;
+	color: #474747;
 	font-size: 30px;
 	padding: 25px;
 	margin: 20px 0;
@@ -130,13 +139,13 @@ hr {
 /* Button */
 
 .btn-primary {
-	background-color: #3a3f5c;
-	border: 1px solid #3a3f5c;
+	background-color: #474747;
+	border: 1px solid #474747;
 }
 
 .btn-primary:hover {
-	background-color: #afdb57;
-	border: 1px solid #afdb57;
+	background-color: #aecd5c;
+	border: 1px solid #aecd5c;
 }
 
 /* Toggle */
@@ -166,7 +175,7 @@ hr {
 
 .toggle-open {
 	border-radius: 2px;
-	background: #afdb57;
+	background: #aecd5c;
 	background-clip: padding-box;
 	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
@@ -243,7 +252,7 @@ hr {
 }
 
 .toggle {
-	background-color: #afdb57;
+	background-color: #aecd5c;
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -290,7 +299,7 @@ hr {
 }
 
 .navbar-brand {
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 .navbar-brand img {
@@ -316,7 +325,7 @@ hr {
 }
 
 .navbar-nav {
-	margin-top: 70px;
+	margin-top: 80px;
 }
 
 .navbar-nav .divider {
@@ -324,13 +333,13 @@ hr {
 	height: 15px;
 	padding: 0;
 	margin: 1.1em .5em;
-	background: #434c58;
+	background: #474747;
 	float: left;
 	overflow: hidden;
 }
 
 .navbar-default .navbar-nav li a {
-	color: #434c58;
+	color: #474747;
 	font-size: 16px;
 	font-weight: bold;
 	padding-right: 12px;
@@ -341,7 +350,7 @@ hr {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-	color: #afdb57 !important;
+	color: #aecd5c !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -351,7 +360,7 @@ hr {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #afdb57;
+	color: #aecd5c;
 	background-color: transparent;    
 }
 
@@ -389,7 +398,7 @@ hr {
 }
 
 #home .heart {
-	color: #afdb57;
+	color: #aecd5c;
 	font-size: 21px;
 }
 
@@ -402,6 +411,11 @@ hr {
 #projetos {
 	margin-top: 60px;
 	margin-bottom: 60px;
+}
+
+#projetos [class*="col-"] {
+	padding-right: 5px !important;
+	padding-left: 0 !important;
 }
 
 #projetos h3 {
@@ -420,7 +434,7 @@ hr {
 #projetos .projetos-thumb {
 	position: relative;
 	padding: 0;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 #projetos .projetos-thumb.thumb-intern {
@@ -435,7 +449,7 @@ hr {
 
 #projetos .projetos-thumb .projetos-overlay {
 	position: absolute;
-	background: #afdb57;
+	background: #aecd5c;
 	color: #fff;
 	top: 0;
 	left: 0;
@@ -469,7 +483,7 @@ hr {
 /* Sobre */
 
 #sobre {
-	background-color: #3a3f5c;
+	background-color: #474747;
 	color: #fff;
 	padding: 60px 0;
 }
@@ -479,7 +493,7 @@ hr {
 }
 
 #sobre .spotlight {
-	color: #afdb57;
+	color: #aecd5c;
 	font-size: 36px;
 }
 
@@ -507,11 +521,11 @@ hr {
 }
 
 .social-buttons li .btn-social {
-	background: #3a3f5c;
+	background: #474747;
 	color: #fff;
 }
 .social-buttons li .btn-social:hover {
-	background: #afdb57;
+	background: #aecd5c;
 }
 
 .social-buttons li .btn-social {
