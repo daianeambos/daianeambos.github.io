@@ -33,7 +33,7 @@ html{
 }
 
 a {
-	color: #E87676;
+	color: #4E4A61;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -41,7 +41,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-	color: #888b8d;
+	color: #E87676;
 	outline: none;
 }
 
@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	color: #E87676;
+	color: #4E4A61;
 	font-size: 42px;
 	padding-bottom: 30px;
 	margin-bottom: 0px;
